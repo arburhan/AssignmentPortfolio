@@ -38,7 +38,6 @@ export default function NavbarComp(): JSX.Element | null {
                 className={`fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 backdrop-blur-md z-40 flex flex-col items-start p-6 space-y-6 transition-transform duration-300 ${isOpen ? "translate-y-0" : "-translate-y-full"
                     } sm:hidden`}
             >
-                {/* X Button */}
                 <button
                     onClick={() => setIsOpen(false)}
                     className="absolute top-4 right-4 text-4xl text-white hover:scale-110 transition-transform"
@@ -73,15 +72,15 @@ export default function NavbarComp(): JSX.Element | null {
 
             {/* Desktop Navbar Content */}
             <div className="hidden sm:flex justify-center w-full">
-                <NavbarContent className="gap-4 border-[1.5px] border-white backdrop-blur-md p-3 shadow-lg rounded-2xl">
+                <NavbarContent className="gap-4 border-2 border-opacity-35 border-white backdrop-blur-md p-3 shadow-lg rounded-3xl">
                     {navContent.map((item, index) => (
                         <NavbarItem key={index}>
                             <Link
                                 color="foreground"
                                 href={item.href}
-                                className={`flex px-2 py-1 gap-2 rounded-md transition-colors 
+                                className={`flex px-2 py-1 gap-2 rounded-2xl transition-colors 
                                     ${activeTab === item.name
-                                        ? 'bg-opacity-20 bg-white backdrop-blur-md shadow-lg'
+                                        ? 'bg-opacity-20 bg-white backdrop-blur-md shadow-lg border-[1.5px] border-opacity-30 border-white'
                                         : 'hover:bg-opacity-10 hover:bg-white backdrop-blur-md'
                                     }`}
                                 onClick={() => setActiveTab(item.name)}
