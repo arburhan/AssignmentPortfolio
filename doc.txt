@@ -1,0 +1,9 @@
+E-commerce 
+Assignment topic:
+Design Your portfolio (only font-End)
+Contents:
+1.your name,title, navigation bar
+2.your biography with images
+3.your skills and experiences
+4.your educational qualifications 
+5.contact information 
