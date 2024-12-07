@@ -6,6 +6,7 @@ import { IoSchoolSharp } from 'react-icons/io5';
 const Education = () => {
     return (
         <div>
+            <h2 className='text-center text-2xl font-bold py-3'>Education Qualification</h2>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
