@@ -5,7 +5,7 @@ import { IoSchoolSharp } from 'react-icons/io5';
 
 const Education = () => {
     return (
-        <div>
+        <section>
             <h2 className='text-center text-2xl font-bold py-3'>Education Qualification</h2>
             <VerticalTimeline>
                 <VerticalTimelineElement
@@ -54,7 +54,7 @@ const Education = () => {
                 </VerticalTimelineElement>
             </VerticalTimeline>
 
-        </div>
+        </section>
     );
 };
 
