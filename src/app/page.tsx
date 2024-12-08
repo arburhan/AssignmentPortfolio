@@ -1,5 +1,6 @@
 
 import Banner from "components/Banner/Banner";
+import Contact from "components/Contact/Contact";
 import Education from "components/Education/Education";
 import NavbarComp from "components/NavbarComp";
 import Projects from "components/Projects/Projects";
@@ -13,6 +14,7 @@ export default function Home() {
       <Education />
       <Skills />
       <Projects />
+      <Contact />
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
 
       </footer>
