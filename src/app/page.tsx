@@ -5,6 +5,7 @@ import Education from "components/Home/Education/Education";
 import NavbarComp from "components/Shared/NavbarComp";
 import Projects from "components/Home/Projects/Projects";
 import Skills from "components/Home/Skills/Skills";
+import Footer from "components/Shared/Footer";
 
 export default function Home() {
   return (
@@ -15,9 +16,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-
-      </footer>
+      <Footer />
     </div>
   );
 }
