@@ -57,14 +57,13 @@ const Skills = () => {
         }
     ]
     return (
-        <section className='p-5'>
-            <h2 className="text-2xl font-bold text-center">Skills</h2>
-            <div className="grid grid-cols-3 gap-4 mt-4">
+        <section className='p-5 my-10'>
+            <h2 className="text-2xl font-bold text-center my-10">Skills</h2>
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-5 md:gap-y-10 md:gap-x-0 mt-4">
                 {myskills.map((skill, index) => (
-                    <div key={index} className="flex flex-col items-center justify-center py-3 px-2 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 shadow-lg rounded-xl transform transition duration-500 hover:scale-105">
-
-                        <div className="mb-2 text-4xl" style={{ color: skill.color }}>{skill.icon}</div>
-                        <p className="text-md md:text-xl font-bold text-gray-900">{skill.name}</p>
+                    <div key={index} className="flex flex-col items-center justify-center">
+                        <div className="mb-2 text-4xl rounded-full bg-gradient-to-r from-[#e0e7ff] via-[#d1fae5] to-[#dbeafe] shadow-lg transform transition duration-500 hover:scale-105 p-8 md:p-10 cursor-pointer" style={{ color: skill.color }}>{skill.icon}</div>
+                        <p className="font-sans">{skill.name}</p>
                     </div>
                 ))}
             </div>
