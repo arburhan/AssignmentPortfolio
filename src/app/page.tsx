@@ -1,5 +1,5 @@
 
-import Banner from "components/Banner";
+import Banner from "components/Banner/Banner";
 import Education from "components/Education/Education";
 import NavbarComp from "components/NavbarComp";
 import Projects from "components/Projects/Projects";
