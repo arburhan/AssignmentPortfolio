@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { FaTwitter } from 'react-icons/fa';
 
-const Footer = () => {
+const Footer = (): JSX.Element | null => {
     return (
         <footer className='mt-10'>
             <div className="bg-gray-800 text-white py-6">

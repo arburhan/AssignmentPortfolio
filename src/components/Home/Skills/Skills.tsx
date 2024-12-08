@@ -8,7 +8,7 @@ import { SiNextdotjs } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
 
-const Skills = () => {
+const Skills = (): JSX.Element | null => {
     const myskills = [
         {
             'name': 'ReactJS',

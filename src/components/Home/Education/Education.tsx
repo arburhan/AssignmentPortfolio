@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { IoSchoolSharp } from 'react-icons/io5';
 
-const Education = () => {
+const Education = (): JSX.Element | null => {
     return (
         <section>
             <h2 className='text-center text-2xl font-bold py-3'>Education Qualification</h2>

@@ -9,7 +9,7 @@ import Footer from "components/Shared/Footer";
 
 export default function Home() {
   return (
-    <div className="p-5 fonts-sans">
+    <section className="p-5 fonts-sans">
       <NavbarComp />
       <Banner />
       <Education />
@@ -17,6 +17,6 @@ export default function Home() {
       <Projects />
       <Contact />
       <Footer />
-    </div>
+    </section>
   );
 }

@@ -6,7 +6,7 @@ import { Button, Card, CardFooter } from '@nextui-org/react';
 import { FaLocationArrow } from "react-icons/fa";
 
 
-const Projects = () => {
+const Projects = (): JSX.Element | null => {
     const myProejcts = [
         {
             'name': 'Project 1',
@@ -52,6 +52,7 @@ const Projects = () => {
                                 src={projectImage}
                                 width={500}
                                 height={350}
+                                loading='lazy'
                             />
                             <CardFooter className="absolute bg-gradient-to-r from-gray-900 via-blue-800 to-teal-800 bottom-0 z-10 border-t border-gray-700 text-white font-sans flex flex-col p-4 shadow-md rounded-b-lg ">
                                 <h4 className="text-xl font-semibold py-1">{project.name}</h4>
