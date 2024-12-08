@@ -60,7 +60,7 @@ const Projects = () => {
                                         ? `${project.description.substring(0, 100)}...`
                                         : project.description}
                                 </p>
-                                <p className="text-sm font-light py-1">Category: {project.category}</p>
+                                <p className="text-sm font-light py-1"> <span className=' text-green-500'>Category:</span> {project.category}</p>
                                 <Button
                                     href={project.link}
                                     className="mt-2 bg-gradient-to-r from-blue-700 to-teal-400 hover:from-teal-400 hover:to-blue-500 text-white font-semibold py-2 px-4 rounded-lg shadow-lg transition-all transform hover:scale-105"
