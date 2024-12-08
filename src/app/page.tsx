@@ -1,10 +1,10 @@
 
-import Banner from "components/Banner/Banner";
-import Contact from "components/Contact/Contact";
-import Education from "components/Education/Education";
-import NavbarComp from "components/NavbarComp";
-import Projects from "components/Projects/Projects";
-import Skills from "components/Skills/Skills";
+import Banner from "components/Home/Banner/Banner";
+import Contact from "components/Home/Contact/Contact";
+import Education from "components/Home/Education/Education";
+import NavbarComp from "components/Shared/NavbarComp";
+import Projects from "components/Home/Projects/Projects";
+import Skills from "components/Home/Skills/Skills";
 
 export default function Home() {
   return (

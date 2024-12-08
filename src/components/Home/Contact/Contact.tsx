@@ -1,6 +1,6 @@
-'use client'
+
 import Image from 'next/image';
-import contactImage from '../../../public/images/contact/contact1.jpg';
+import contactImage from '../../../../public/images/contact/contact1.jpg';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';

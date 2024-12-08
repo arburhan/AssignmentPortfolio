@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import BannerImage from '../../../public/images/banner/imageNoBG.png';
+import BannerImage from '../../../../public/images/banner/imageNoBG.png';
 import './Banner.css';
 import { Button } from '@nextui-org/react';
 import { IoIosCloudDownload } from "react-icons/io";

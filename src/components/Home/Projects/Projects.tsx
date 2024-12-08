@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React from 'react';
-import projectImage from '../../../public/images/projects/project1.jpg';
+import projectImage from '../../../../public/images/projects/project1.jpg';
 import { Button, Card, CardFooter } from '@nextui-org/react';
 import { FaLocationArrow } from "react-icons/fa";
 
