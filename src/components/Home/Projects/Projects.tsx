@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import React from 'react';
 import projectImage from '../../../../public/images/projects/project1.jpg';
-import { Button, Card, CardFooter } from '@nextui-org/react';
+import { Button, Card, CardFooter } from "@heroui/react";
 import { FaLocationArrow } from "react-icons/fa";
 
 

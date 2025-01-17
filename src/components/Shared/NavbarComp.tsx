@@ -9,7 +9,7 @@ import {
     NavbarContent,
     NavbarItem,
     Link,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { IoHome } from "react-icons/io5";
 import { RxAvatar } from "react-icons/rx";
 import { FaProjectDiagram } from "react-icons/fa";

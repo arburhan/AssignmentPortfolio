@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import BannerImage from '../../../../public/images/banner/imageNoBG.png';
 import './Banner.css';
-import { Button } from '@nextui-org/react';
+import { Button } from "@heroui/react";
 import { IoIosCloudDownload } from "react-icons/io";
 
 
