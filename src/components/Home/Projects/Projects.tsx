@@ -45,7 +45,7 @@ const Projects = (): JSX.Element | null => {
             <div className="max-w-[1500px]  grid grid-cols-1 gap-8 md:grid-cols-3 px-8">
                 {
                     myProejcts.map((project, index) =>
-                        <Card key={index} isFooterBlurred className="w-full h-[400px] col-span-1">
+                        <Card key={index} isFooterBlurred className="w-full h-[400px] col-span-1 shadow-2xl">
                             <Image
                                 alt={project.name}
                                 className="z-0 w-full object-cover"

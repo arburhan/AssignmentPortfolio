@@ -45,7 +45,7 @@ const Contact = (): JSX.Element | null => {
             <h2 className='text-2xl font-bold text-center my-10'>Contact Us</h2>
             <div className='flex flex-col  md:flex-row gap-3 items-center justify-center' >
                 <div>
-                    <Image src={contactImage} alt='Contact' height={500} width={600} loading='lazy' className='rounded-2xl' />
+                    <Image src={contactImage} alt='Contact' height={400} width={500} loading='lazy' className='rounded-2xl' />
                 </div>
                 <div>
                     <h3 className='text-xl  text-center py-3'>Contact Information</h3>
